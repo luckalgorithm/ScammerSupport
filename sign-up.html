@@ -15,7 +15,7 @@
                 <p class="form-info">*Your Scammer Support account</p>
 
                 <label for="password">Username</label>
-                <input type="password" id="password" name="password" placeholder="Create a username" required>
+                <input type="text" id="password" name="password" placeholder="Create a username" required>
 
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" placeholder="Create a strong password" required>
@@ -40,10 +40,10 @@
                 <label for="expiry">Card Expiry Date</label>
                 <input type="text" id="expiry" name="expiry" placeholder="MM/YY" required>
 
-                <label for="cvv">CVV</label>
+                <label for="cvv">Card Verification Value (CVV)</label>
                 <input type="text" id="cvv" name="cvv" placeholder="1234" required>
 
-                <label for="address">Home Country</label>
+                <label for="address">Country</label>
                 <input type="text" name="address" placeholder="Country" required>
 
                 <label for="address">Home Address</label>
@@ -65,9 +65,9 @@
     </footer>
 
     <script>
-        document.querySelector('form').addEventListener('submit', function(event) {
-            event.preventDefault(); // Prevent form submission
-            alert("Thank you for your submission! We'll get back to you never.");
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert("Form submitted successfully. Thank you for joining Scammer Support!");
         });
     </script>
 </body>
