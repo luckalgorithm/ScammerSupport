@@ -17,6 +17,7 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
 }
 
 body,
@@ -130,4 +131,13 @@ button {
 
 .form-info {
   font-size: 2vh;
+}
+
+#join-button {
+  margin-top: 4vh;
+}
+
+#sign-up-title {
+  width: auto;
+  font-size: 4vw;
 }
