@@ -8,8 +8,8 @@ The site does not collect any information when the button labeled **Join Now!** 
 Simply send a link to website when someone attempts to scam you!\
 Scammer Support is currently hosted on Vercel as well as GitHub Pages.
 
-Vercel:
+**Vercel:**\
 *https://scammer-support.vercel.app/*
 
-GitHub:
+**GitHub:**\
 *https://myhauntedfork.github.io/Scammer_Support/*
