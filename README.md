@@ -1,6 +1,6 @@
 # **Scammer Support**
 
-Scammer Support is a comedic way to respond to scammers. The form does not collect any information when "Join Now" button is clicked.
+Scammer Support is a comedic way to respond to scammers. The site does not collect any information when "Join Now" button on the form is clicked.
 
 ## **How to use it**
 
