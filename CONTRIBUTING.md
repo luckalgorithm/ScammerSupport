@@ -4,7 +4,7 @@ Please follow standard practices for writing clean and readable code.
 
 If your contribution affects the functionality or user interface, please update the relevant documentation. 
 This could be in the form of comments, markdown files, or in-app instructions.
-Any changes that impact the setup or usage of the project should be reflected in the `README.md` file.
+Any changes that impact the setup or usage of the project should be reflected in the README file.
 
 If you encounter any bugs, please create an issue with detailed steps to reproduce the bug, screenshots (if applicable), and the expected vs. actual behavior.
 
