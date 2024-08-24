@@ -1,143 +1,143 @@
 :root {
-  --background-color: #f4f4f4;
-  --dark-text-color: #333;
-  --footer-background-color: #333;
-  --light-text-color: #fff;
-  --primary-color: #6093eb;
-  --section-background-color: #fff;
-  --section-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    --background-color: #f4f4f4;
+    --dark-text-color: #333;
+    --footer-background-color: #333;
+    --light-text-color: #fff;
+    --primary-color: #6093eb;
+    --section-background-color: #fff;
+    --section-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: var(--background-color);
-  color: var(--dark-text-color);
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--dark-text-color);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
 }
 
 body,
 html {
-  height: 100%;
-  margin: 0;
+    height: 100%;
+    margin: 0;
 }
 
 header {
-  background-color: var(--primary-color);
-  color: var(--light-text-color);
-  padding: 20px 0;
-  padding-left: 10vw;
-  padding-right: 10vw;
+    background-color: var(--primary-color);
+    color: var(--light-text-color);
+    padding: 20px 0;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 header h1 {
-  margin: 0;
+    margin: 0;
 }
 
 .container {
-  padding: 20px;
+    padding: 20px;
 }
 
 .section1,
 .section2 {
-  background-color: var(--section-background-color);
-  padding: 20px;
-  margin: 20px 0;
-  border-radius: 8px;
-  box-shadow: var(--section-box-shadow);
+    background-color: var(--section-background-color);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: var(--section-box-shadow);
 }
 
 .section1 h2,
 .section2 h2 {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 .feature-list li {
-  margin: 10px 0;
-  font-size: 1.2em;
+    margin: 10px 0;
+    font-size: 1.2em;
 }
 
 .button {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 1.2em;
-  color: var(--light-text-color);
-  background-color: var(--primary-color);
-  border: none;
-  border-radius: 5px;
-  text-decoration: none;
-  cursor: pointer;
-  margin: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: var(--light-text-color);
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 10px;
 }
 
 .button:hover {
-  background-color: var(--primary-color);
+    background-color: var(--primary-color);
 }
 
 footer {
-  background-color: var(--footer-background-color);
-  color: var(--light-text-color);
-  padding: 10px 0;
-  margin-top: auto;
+    background-color: var(--footer-background-color);
+    color: var(--light-text-color);
+    padding: 10px 0;
+    margin-top: auto;
 }
 
 @media (min-width: 800px) {
-  .section1,
-  .section2 {
-    width: 100%;
-    max-width: 800px;
-  }
+    .section1,
+    .section2 {
+        width: 100%;
+        max-width: 800px;
+    }
 
-  .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 /* Sign up */
 
 form {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  max-width: 400px;
-  margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 label {
-  margin-top: 10px;
-  margin-bottom: 5px;
-  font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
 
 input {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
 
 button {
-  align-self: center;
-  width: 100%;
+    align-self: center;
+    width: 100%;
 }
 
 .form-info {
-  font-size: 2vh;
+    font-size: 2vh;
 }
 
 #join-button {
-  margin-top: 6vh;
+    margin-top: 6vh;
 }
 
 #sign-up-title {
-  width: auto;
-  font-size: 4vw;
+    width: auto;
+    font-size: 4vw;
 }
