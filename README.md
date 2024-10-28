@@ -5,7 +5,7 @@ The site does not collect any information when the button labeled **Join Now!** 
 
 ## **How to use it**
 
-Simply send a link to website when someone attempts to scam you!\
+Simply send a link to the website when someone attempts to scam you!\
 Scammer Support is currently hosted on Vercel as well as GitHub Pages.
 
 **Vercel:**\
