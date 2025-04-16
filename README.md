@@ -6,10 +6,5 @@ The site does not collect any information when the button labeled **Join Now!** 
 ## **How to use it**
 
 Simply send a link to the website when someone attempts to scam you!\
-Scammer Support is currently hosted on Vercel as well as GitHub Pages.
 
-**Vercel:**\
-*https://scammer-support.vercel.app/*
-
-**GitHub:**\
-*https://myhauntedfork.github.io/Scammer_Support/*
+Scammer Support is hosted on [GitHub Pages](https://luckalgorithm.github.io/Scammer_Support/).
