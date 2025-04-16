@@ -85,17 +85,28 @@ footer {
     margin-top: auto;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 801px) {
     .section1,
     .section2 {
         width: 100%;
-        max-width: 800px;
+        max-width: 35rem;
     }
 
     .container {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+}
+
+@media (max-width: 800px) {
+    body {
+        background-color: var(--section-background-color);
+    }
+    .section1,
+    .section2 {
+        background: transparent;
+        box-shadow: none;
     }
 }
 
@@ -139,5 +150,5 @@ button {
 
 #sign-up-title {
     width: auto;
-    font-size: 4vw;
+    font-size: 2rem;
 }
