@@ -7,4 +7,4 @@ The site does not collect any information when the button labeled **Join Now!** 
 
 Simply send a link to the website when someone attempts to scam you!\
 
-Scammer Support is hosted on [GitHub Pages](https://luckalgorithm.github.io/Scammer_Support/).
+Scammer Support is hosted on [GitHub Pages](https://luckalgorithm.github.io/ScammerSupport/).
